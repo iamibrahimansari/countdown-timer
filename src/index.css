@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: sans-serif;
+  color: #444;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+input{
+  padding: 1rem;
+  font-size: 1.6rem;
+  width: 50rem;
+  border: none;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3);
+  outline: none;
+  transition: opacity 0.3s ease;
+}
+
+input:focus{
+  background-color: darkcyan;
+  color: #fff;
+}
+
+input:focus::placeholder{
+  color: #fff;
+}
+
+h1{
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 3rem;
+}
